@@ -13,9 +13,9 @@ Required version of PHP: 5.4+ (tested up to 7.3.11)
 
 ### To do:
 
-[ ] VK bot.
-[ ] PostgreSQL support.
-[ ] SQLite support.
+- [ ] VK bot.
+- [ ] PostgreSQL support.
+- [ ] SQLite support.
 
 ### Credits
 Cvolton's server - https://github.com/Cvolton/GMDprivateServer
