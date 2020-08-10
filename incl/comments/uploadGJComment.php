@@ -33,11 +33,7 @@ if(!empty($_POST["accountID"]) AND $_POST["accountID"]!="0"){
 		exit("-1");
 	}
 }else{
-	$id = $ep->remove($_POST["udid"]);
-	$register = 0;
-	if(is_numeric($id)){
-		exit("-1");
-	}
+	exit("-1");
 }
 $userID = $mainLib->getUserID($id, $userName);
 $uploadDate = time();
